@@ -2,8 +2,9 @@ package moeda;
 
 import java.util.HashMap;
 import java.util.Map;
-
 import javax.swing.JOptionPane;
+
+
 
 public class ComverteMoeda {
 
@@ -13,9 +14,9 @@ public class ComverteMoeda {
 	static {
 		// Inicializando as taxas de câmbio fictícias
 		TAXAS_DE_CAMBIO.put("USD", 5.77); // Dólar para real
-		TAXAS_DE_CAMBIO.put("EUR", 5.5); // Euro para real
+		TAXAS_DE_CAMBIO.put("EUR", 6.15); // Euro para real
 		TAXAS_DE_CAMBIO.put("JPY", 0.036); // Iene para real
-		TAXAS_DE_CAMBIO.put("GBP", 6.0); // Libra para real
+		TAXAS_DE_CAMBIO.put("GBP", 7.42); // Libra para real
 	}
 
 	public static void main(String[] args) {
